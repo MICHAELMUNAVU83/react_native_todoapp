@@ -18,6 +18,14 @@ export default function TabLayout() {
           headerShown: false,
         }}
       />
+
+      <Tabs.Screen
+        name="calculator"
+        options={{
+          title: "Explore",
+          headerShown: false,
+        }}
+      />
     </Tabs>
   );
 }
